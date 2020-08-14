@@ -1,0 +1,187 @@
+#title {
+    background-color: #ff4c68;
+    
+}
+
+
+body{
+    font-family: 'Montserrat','sans-serif';
+
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+.w900{
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.downbutton{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+@media (max-width : 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform:rotate(0);
+    }
+}
+
+/* navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+/* features */
+h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.description{
+    color: #8f8f8f;
+    
+}
+
+
+.feature{
+    
+    text-align: center;
+    padding: 4%;
+}
+
+.row-size{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+
+.icon{
+    color: #ef8172;
+    padding: 4%;
+}
+.icon:hover{
+    color: #ff4c48;
+}
+
+
+/* testimonial section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:#ef8172 ;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+#press{
+    text-align: center;
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+    
+}
+.press-logo{
+    
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.column-padd{
+    padding :3% 2%;
+}
+
+/* <!-- Call to Action --> */
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+
+.cta-header{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+/* <!-- Footer --> */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 0.7rem;
+    
+}
+
+.icons{
+    padding: 1% 0.5%;
+    
+}
